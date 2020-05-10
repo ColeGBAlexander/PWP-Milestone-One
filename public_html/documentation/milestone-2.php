@@ -10,25 +10,35 @@
 <body>
 
 <h4>Welcome:</h4>
-<p>Near the top of the page, displaying a one to two sentence introduction, e.g., name, location and what I do.</p>
+<p>Near the top of the page, (rectangle, black background, white text) displaying a one to two sentence introduction,
+    "Hello & welcome. My name is Cole Alexander Gonzales Bielefeld.
+    I'm a web developer, freelancer & contractor with a specialty in building computers, drone real estate &
+    game room design."</p>
 
 <H4>About me:</H4>
-<p>A bit more personalization and overview into who I am, primarily detailing my strengths and personality. To the
-right hand side of the screen will be table listing core skills & coding knowlege</p>
+<p>A bit more personalization and overview into who I am, primarily detailing my strengths and personality.
+    "I'm fairly outgoing, mellow, focused on what's most important and passionate as an individual.
+    I work well with others and
+    enjoy stepping into the role of leadership."
+    To the right hand side of the screen will be table listing core skills &
+    coding knowlege such as, starting at the top - CSS,
+HTML, mySQL and JavaScript knowledge.</p>
 
 
 <h4>Portfolio:</h4>
-<P>displaying relevant projects and creations in clickable photo style links</P>
+<P>the four circles in the middle of the page displaying relevant projects and creations in clickable photo style links</P>
+
 <h4>Link to Resume</h4>
-<p>Link to Resume, work history / job expertice</p>
+<p>below the four portfolio circles but before the contact me box. Link to Resume, work history / job expertice</p>
 
 
 <h4>Passions:</h4>
-<p>One to two sentances describing my love for building custom computers, trouble shooting them
-    & designing game rooms</p>
+<p>Near the bottom of the page, (rectangle, black background, white text)
+    "I have a love for building custom computers and trouble shooting them (both mac & PC).
+    Along with photography, from drone & on foot and creating content. Along with designing game rooms."</p>
 
 <h4>Contact me:</h4>
-<p>message panel, name & email rectangles for someone to place in their info, in-laced with a send button.</p>
+<p>message panel, name & email rectangles for someone to place in their info, in-laced with a send button linked to my business email.</p>
 
 
 <h4>Social Media links</h4>
@@ -39,7 +49,7 @@ include Facebook, GitHub, Linked-In, maybe Twitter & Whatsapp as well.</p>
 <h4>Wireframe desktop & mobile concept:</h4>
 <p>https://whimsical.com/FtjgyyX5PW5bKTcDUs2J9M</p>
 
-<img src="PWP-Content%20Wire%20frames.pdf">
+<img src="pwpwireframes.png">
 
 </body>
 </html>
