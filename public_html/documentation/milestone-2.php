@@ -16,8 +16,8 @@
     game room design."</p>
 
 <H4>About me:</H4>
-<p>A bit more personalization and overview into who I am, primarily detailing my strengths and personality.
-    "I'm fairly outgoing, mellow, focused on what's most important and passionate as an individual.
+<p>A bit more personalization and overview into who I am, primarily detailing my strengths and personality:
+    "I'm fairly outgoing & mellow. Focused on what's most important and passionate as an individual.
     I work well with others and
     enjoy stepping into the role of leadership."
     To the right hand side of the screen will be table listing core skills &
