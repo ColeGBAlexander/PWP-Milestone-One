@@ -1,0 +1,19 @@
+.jumbotron {
+    background-color: black;
+    color: goldenrod;
+}
+
+div.col-md-8 {
+    color: #ff0000;
+}
+
+/*.parallax{*/
+/*    background: image() no-repeat center;*/
+/*    background-size: cover;*/
+/*    background-attachment: fixed;*/
+/*    height: 500px;*/
+/*}*/
+
+img.rounded-circle {
+    padding: 2em 2em 2em 2em;
+}
