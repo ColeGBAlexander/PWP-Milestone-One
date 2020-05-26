@@ -14,6 +14,8 @@ app.use(morgan(format: 'dev'))
 app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
 
+console.log(process.env)
+
 const indexRoute = express.Router()
 
 const requestValidation = [
@@ -30,8 +32,20 @@ indexRoute.route('/apis')
     return response.json("Hello")
 })
 .post(requestValidation, data: (request, response) => {
+  const
+    const mg = mailgun( options: {apiKey: process.env.MAILGUN_API_KEY, domain: domain});
 
-  const errors
+  const {email, subject, name, message} = request.body
+
+  const mailgunData = {
+    to: process.env.MAIL_RECIPIENT,
+    from: 'Mailgun Sandbox <postmaster@${domain}'
+  }
+
+
+
+
+  const errors = validationResult(request)
 
 if(!errors.isEmpty()) {
   const currentError = errors.array()[0]
@@ -41,9 +55,9 @@ if(!errors.isEmpty()) {
   //this must be commented out before PWP has been hosted using docker
   response.append( name: 'Access-Control-Allow-Origin', value: ['*']);
   console.log(request.body)
-  return response.json("is this thing on?")
+  return response.send(buffer.from("<div class='alert-success' role=alert'>Emailsuccessfully sent.</div>"))
 })
 
 app.use(indexRoute)
 
-app.listen(4200,() => {console.log("The server has started")} )
+app.listen(4200,() => {console.log("The server has started")})

@@ -48,8 +48,9 @@ $(document).ready(function () {
 
 
           if($(".alert-success").length >= 1) {
-            $("#contact")[0].reset
+            $("#contact")[0].reset();
           }
+
 
         }
       })
