@@ -17,3 +17,17 @@ div.col-md-8 {
 img.rounded-circle {
     padding: 2em 2em 2em 2em;
 }
+
+body {
+    background: url("../img/IMG_7674.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body > div:nth-child(4) > div > a > img {
+    height: 400px;
+}
+
+body > div:nth-child(4) {
+    display: flex; justify-content: space-around;
+}
